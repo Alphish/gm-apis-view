@@ -1,0 +1,2 @@
+window_set_size(camera_get_view_width(ctrl_ApisViewCamera.camera), camera_get_view_height(ctrl_ApisViewCamera.camera));
+surface_resize(application_surface, camera_get_view_width(ctrl_ApisViewCamera.camera), camera_get_view_height(ctrl_ApisViewCamera.camera));
