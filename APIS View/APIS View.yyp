@@ -23,14 +23,16 @@
   },
   "name":"APIS View",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"ctrl_ApisViewCamera","path":"objects/ctrl_ApisViewCamera/ctrl_ApisViewCamera.yy",},},
+    {"id":{"name":"ctrl_Demo","path":"objects/ctrl_Demo/ctrl_Demo.yy",},},
+    {"id":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
     {"id":{"name":"ctor_ApisViewBounds","path":"scripts/ctor_ApisViewBounds/ctor_ApisViewBounds.yy",},},
+    {"id":{"name":"spr_Test","path":"sprites/spr_Test/spr_Test.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
