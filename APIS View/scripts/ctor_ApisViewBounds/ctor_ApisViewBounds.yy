@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ctor_ApisViewBounds",
   "parent":{
-    "name":"APIS View",
-    "path":"folders/_Packages/Alphish/APIS View.yy",
+    "name":"Zones",
+    "path":"folders/_Packages/Alphish/APIS View/Zones.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
