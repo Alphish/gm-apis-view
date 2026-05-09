@@ -41,6 +41,8 @@
     {"id":{"name":"ctor_ApisViewNoTarget","path":"scripts/ctor_ApisViewNoTarget/ctor_ApisViewNoTarget.yy",},},
     {"id":{"name":"ctor_ApisViewPositionTarget","path":"scripts/ctor_ApisViewPositionTarget/ctor_ApisViewPositionTarget.yy",},},
     {"id":{"name":"ctor_ApisViewTarget","path":"scripts/ctor_ApisViewTarget/ctor_ApisViewTarget.yy",},},
+    {"id":{"name":"funcs_ApisView","path":"scripts/funcs_ApisView/funcs_ApisView.yy",},},
+    {"id":{"name":"funcs_ApisViewZone","path":"scripts/funcs_ApisViewZone/funcs_ApisViewZone.yy",},},
     {"id":{"name":"spr_ApisViewZone","path":"sprites/spr_ApisViewZone/spr_ApisViewZone.yy",},},
     {"id":{"name":"spr_Test","path":"sprites/spr_Test/spr_Test.yy",},},
     {"id":{"name":"spr_Walker","path":"sprites/spr_Walker/spr_Walker.yy",},},

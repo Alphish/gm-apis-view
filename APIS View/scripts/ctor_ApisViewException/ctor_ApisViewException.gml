@@ -21,3 +21,18 @@ ApisViewException.not_implemented = function(_context, _method) {
         $"{instanceof(_context)}.{_method} was not implemented."
         );
 }
+
+ApisViewException.invalid_type = function(_value, _expected) {
+    var _value_description;
+    if (is_handle(_value))
+        _value_description = instance_exists(_value) ? $"{object_get_name(_value.object_index)} instance" : _value;
+    else if (is_struct(_value))
+        _value_description = $"{instanceof(_value)} struct";
+    else
+        _value_description = typeof(_value);
+    
+    return new ApisViewException(
+        nameof(invalid_type),
+        $"Expected {_expected}, but got {_value_description} instead."
+        );
+}
