@@ -15,6 +15,7 @@
     {"$GMFolder":"","%Name":"APIS View","folderPath":"folders/_Packages/Alphish/APIS View.yy","name":"APIS View","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Approaches","folderPath":"folders/_Packages/Alphish/APIS View/Approaches.yy","name":"Approaches","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Targets","folderPath":"folders/_Packages/Alphish/APIS View/Targets.yy","name":"Targets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Demo","folderPath":"folders/Demo.yy","name":"Demo","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
@@ -27,6 +28,7 @@
   "resources":[
     {"id":{"name":"ctrl_ApisViewCamera","path":"objects/ctrl_ApisViewCamera/ctrl_ApisViewCamera.yy",},},
     {"id":{"name":"ctrl_Demo","path":"objects/ctrl_Demo/ctrl_Demo.yy",},},
+    {"id":{"name":"obj_Walker","path":"objects/obj_Walker/obj_Walker.yy",},},
     {"id":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
     {"id":{"name":"ctor_ApisViewApproach","path":"scripts/ctor_ApisViewApproach/ctor_ApisViewApproach.yy",},},
     {"id":{"name":"ctor_ApisViewBounds","path":"scripts/ctor_ApisViewBounds/ctor_ApisViewBounds.yy",},},
@@ -38,6 +40,7 @@
     {"id":{"name":"ctor_ApisViewPositionTarget","path":"scripts/ctor_ApisViewPositionTarget/ctor_ApisViewPositionTarget.yy",},},
     {"id":{"name":"ctor_ApisViewTarget","path":"scripts/ctor_ApisViewTarget/ctor_ApisViewTarget.yy",},},
     {"id":{"name":"spr_Test","path":"sprites/spr_Test/spr_Test.yy",},},
+    {"id":{"name":"spr_Walker","path":"sprites/spr_Walker/spr_Walker.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

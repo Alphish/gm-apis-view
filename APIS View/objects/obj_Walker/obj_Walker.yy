@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ctrl_Demo",
+  "%Name":"obj_Walker",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ctrl_Demo",
+  "name":"obj_Walker",
   "overriddenProperties":[],
   "parent":{
     "name":"Demo",
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Walker",
+    "path":"sprites/spr_Walker/spr_Walker.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
