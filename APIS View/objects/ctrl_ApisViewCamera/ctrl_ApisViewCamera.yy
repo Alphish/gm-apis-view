@@ -39,6 +39,8 @@
     {"$GMObjectProperty":"v2","%Name":"port_y","filters":[],"listItems":[],"multiselect":false,"name":"port_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"port_width","filters":[],"listItems":[],"multiselect":false,"name":"port_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"port_height","filters":[],"listItems":[],"multiselect":false,"name":"port_height","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"target","filters":[],"listItems":[],"multiselect":false,"name":"target","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ApisViewNoTarget","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"approach","filters":[],"listItems":[],"multiselect":false,"name":"approach","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ApisViewInstantApproach","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

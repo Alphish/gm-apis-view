@@ -10,9 +10,37 @@ view_set_yport(view_index, port_y);
 view_set_wport(view_index, port_width);
 view_set_hport(view_index, port_height);
 
-origin_xoffset = width div 2;
-origin_yoffset = height div 2;
-origin_xtarget = x + origin_xoffset;
-origin_ytarget = y + origin_yoffset;
-
 bounds = new ApisViewBounds(0, 0, room_width, room_height);
+
+if (is_callable(target))
+    target = new target();
+
+target_xoffset = width div 2;
+target_yoffset = height div 2;
+
+if (is_callable(approach))
+    approach = new approach();
+
+// -------
+// Methods
+// -------
+
+approach_target = function(_instant = false) {
+    var _xtarget = target.get_x() ?? x + target_xoffset;
+    _xtarget = bounds.clamp_x(_xtarget - target_xoffset, width);
+    
+    var _ytarget = target.get_y() ?? y + target_yoffset;
+    _ytarget = bounds.clamp_y(_ytarget - target_yoffset, height);
+    
+    if (_instant) {
+        x = _xtarget;
+        y = _ytarget;
+    } else {
+        approach.apply(id, _xtarget, _ytarget);
+    }
+    
+    camera_set_view_pos(camera, round(x - margin_left), round(y - margin_top));
+}
+
+// start at the target position
+approach_target(/* instant */ true);
