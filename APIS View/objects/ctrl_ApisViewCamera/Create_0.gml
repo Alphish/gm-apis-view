@@ -1,7 +1,10 @@
-port_width ??= width + margin_left + margin_right;
-port_height ??= height + margin_top + margin_bottom;
+total_width = margin_left + width + margin_right;
+total_height = margin_top + height + margin_bottom;
 
-camera = camera_create_view(x - margin_left, y - margin_top, width, height);
+port_width ??= total_width;
+port_height ??= total_height;
+
+camera = camera_create_view(x - margin_left, y - margin_top, total_width, total_height);
 view_enabled[view_index] = true;
 view_set_camera(view_index, camera);
 view_set_visible(view_index, true);
