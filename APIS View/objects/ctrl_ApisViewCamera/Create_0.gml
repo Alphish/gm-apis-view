@@ -18,14 +18,14 @@ if (is_callable(target))
 target_xoffset = width div 2;
 target_yoffset = height div 2;
 
-if (is_callable(approach))
-    approach = new approach();
+if (is_callable(follow))
+    follow = new follow();
 
 // -------
 // Methods
 // -------
 
-approach_target = function(_instant = false) {
+follow_target = function(_instant = false) {
     var _xtarget = target.get_x() ?? x + target_xoffset;
     _xtarget = bounds.clamp_x(_xtarget - target_xoffset, width);
     
@@ -36,11 +36,11 @@ approach_target = function(_instant = false) {
         x = _xtarget;
         y = _ytarget;
     } else {
-        approach.apply(id, _xtarget, _ytarget);
+        follow.apply(id, _xtarget, _ytarget);
     }
     
     camera_set_view_pos(camera, round(x - margin_left), round(y - margin_top));
 }
 
 // start at the target position
-approach_target(/* instant */ true);
+follow_target(/* instant */ true);

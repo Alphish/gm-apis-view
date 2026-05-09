@@ -1,1 +1,1 @@
-approach_target(/* instant */ false);
+follow_target(/* instant */ false);

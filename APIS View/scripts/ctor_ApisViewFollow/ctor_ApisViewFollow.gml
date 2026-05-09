@@ -1,4 +1,4 @@
-function ApisViewApproach() constructor {
+function ApisViewFollow() constructor {
     static apply = function(_instance, _xtarget, _ytarget) {
         throw ApisViewException.not_implemented(self, nameof(apply));
     }

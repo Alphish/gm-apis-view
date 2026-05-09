@@ -1,4 +1,4 @@
-function ApisViewLinearApproach(_spd) : ApisViewApproach() constructor {
+function ApisViewLinearFollow(_spd) : ApisViewFollow() constructor {
     spd = _spd;
     
     static apply = function(_instance, _xtarget, _ytarget) {
