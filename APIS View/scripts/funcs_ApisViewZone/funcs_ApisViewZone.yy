@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ctor_ApisViewBounds",
+  "%Name":"funcs_ApisViewZone",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ctor_ApisViewBounds",
+  "name":"funcs_ApisViewZone",
   "parent":{
     "name":"Zones",
     "path":"folders/_Packages/Alphish/APIS View/Zones.yy",
